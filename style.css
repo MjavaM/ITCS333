@@ -1,24 +1,21 @@
 h1 {
     color: rgba(2, 2, 151, 0.822);
-    text-align: center;
+    text-align:left ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     }
-    p {text-align: center; color: hsl(0, 93%, 5%); }
+    p {text-align: center; color:black; }
 
     body{
-        background-color: pink;
+        background-image:linear-gradient(#FEAC5E,#C779D0,#4BC0C8);
+        background-repeat: no-repeat;
+        background-size: 100%;
 
     }
-    .p2{
-        width: 200px;
-        height: 200px;
-        display: block;
-        margin: auto;
-        }
-        .photo1{
-
-        width: 100px;
-        height: 100px;
-        display: flex; 
-        flex-wrap:wrap ;
-        margin: auto;
-        }
+    footer :div
+    {
+      display:flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      height: 5cm;
+      width: 100%;
+    }
