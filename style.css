@@ -1,9 +1,9 @@
 h1 {
     color: rgba(2, 2, 151, 0.822);
-    text-align:left ;
+    text-align:center ;
     font-family: Georgia, 'Times New Roman', Times, serif;
     }
-    p {text-align: center; color:black; }
+    p {text-align: left; color:black; font-size: medium; }
 
     body{
         background-image:linear-gradient(#FEAC5E,#C779D0,#4BC0C8);
@@ -11,11 +11,12 @@ h1 {
         background-size: 100%;
 
     }
-    footer :div
+    footer 
     {
       display:flex;
       flex-wrap: wrap;
-      justify-content: space-between;
       height: 5cm;
-      width: 100%;
+      width: 5%;
+      align-content:center ;
+      align-items: center;
     }
