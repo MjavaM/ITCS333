@@ -31,6 +31,7 @@ curl_close($ch);
 $data = json_decode($response, true);
 
 // Start HTML table
+echo "<h1>Table</h1>";
 echo "<table border='1'>
 <tr>
     <th>College</th>
